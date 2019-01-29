@@ -56,7 +56,7 @@ const MapComponent = enahnce(
   }) => {
 
     useEffect(() => {
-      fetch("/api/greeting")
+      fetch("/api/map")
         .then(response => response.json())
         .then(result => {
           const getAllCordinate = (geometries) => {

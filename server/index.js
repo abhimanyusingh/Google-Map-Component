@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(pino);
 
-app.get('/api/greeting', (req, res) => {
+app.get('/api/map', (req, res) => {
   const name = req.query.name || 'World';
   res.setHeader('Content-Type', 'application/json');
   let contents = fs.readFileSync('./data/frontend-geo.json'); 
