@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { compose, withProps, withStateHandlers } from "recompose";
 import {
   withScriptjs,
@@ -6,8 +6,7 @@ import {
   GoogleMap,
   Marker,
   Polygon,
-  InfoWindow,
-  computeArea
+  InfoWindow
 } from "react-google-maps";
 
 const enahnce = compose(
