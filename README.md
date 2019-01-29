@@ -10,9 +10,7 @@ Clicking on them should reveal a panel that shows meta information.
 
 > Features
 
-- Create a map component and display Berlin as the center [52.520008,
-
-13.404954]
+- Create a map component and display Berlin as the center [52.520008, 13.404954]
 
 - Fetch data from the provided frontend-geo.json file: https://drive.google.com/file/d/1G5bC34-DPL0YWSxfryCu5VfS6a6nwnlu/view
 
